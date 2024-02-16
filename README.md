@@ -11,3 +11,6 @@ _**docker-compose up -d**_
 
 Jika proses setup odoo sudah selesai, jalankan perintah 
 _**docker ps**_
+
+Untuk Akses Odoo buka web
+http://localhost:8079/
