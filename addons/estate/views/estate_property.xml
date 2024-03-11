@@ -1,5 +1,15 @@
 <odoo>
     <data>
+        <record id="estate_property_view_search" model="ir.ui.view">
+            <field name="name">Estate Property Search</field>
+		    <field name="model">estate.property</field>
+		    <field name="arch" type="xml">
+				<search string="Estate Property Search">
+					<field name="name" />
+					<field name="postcode" />
+				</search>
+		    </field>
+        </record>
         <record id="estate_property_view_tree" model="ir.ui.view">
             <field name="name">Estate Property List</field>
 		    <field name="model">estate.property</field>
