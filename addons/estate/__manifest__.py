@@ -9,7 +9,13 @@
     """,
     'application': True,
     'data': [
-        'security/ir.model.access.csv',    
+        # security
+        'security/ir.model.access.csv',  
+        
+        # templates
+        'data/templates/example_email_template.xml',  
+
+        # views
         'views/menu.xml',
         'views/estate_property.xml',
         
