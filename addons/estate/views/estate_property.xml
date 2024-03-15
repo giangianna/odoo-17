@@ -24,7 +24,7 @@
 		    </field>
         </record>
         <record id="estate_property_view_form" model="ir.ui.view">
-		    <field name="name">Estate Property List</field>
+		    <field name="name">Estate Property Form</field>
 		    <field name="model">estate.property</field>
 		    <field name="arch" type="xml">
 				<form string="Test">
@@ -37,6 +37,7 @@
 				    <sheet>
 				        <group>
 				            <group>
+								<field name="tag_ids" widget="many2many_tags" options="{'color_field': 'color'}"/>
 								<field name="property_type_id" options="{'no_create': True, 'no_edit': True}"/>
 				                <field name="name"/>
 				                <field name="postcode" required="True"/>
