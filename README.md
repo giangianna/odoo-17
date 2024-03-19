@@ -14,3 +14,15 @@ _**docker ps**_
 
 Untuk Akses Odoo buka web
 http://localhost:8079/
+
+
+#Odoo Scaffold
+1. Odoo Windows Command
+Odoo scaffold command
+----
+<python path> <odoo bin path> scaffold <module_name> <target_dir>
+contoh :
+"E:\_Installed Apps\python\python.exe" "E:\_Installed Apps\server\odoo-bin" scaffold learn_customization "E:\_Installed Apps\server\addons"
+
+2. Odoo Docker Command
+docker exec odoo-17 /usr/bin/odoo scaffold learn_customization /mnt/extra-addons
