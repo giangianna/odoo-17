@@ -24,6 +24,8 @@
         
         # Load initial Data
         'data/estate.property.csv',
+        'data/res.groups.csv',
+        'data/ir.model.access.csv',
         # Schedulers
         'views/schedulers/estate_property_scheduler.xml',
         # Reports
