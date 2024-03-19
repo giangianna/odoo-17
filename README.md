@@ -26,3 +26,7 @@ contoh :
 
 2. Odoo Docker Command
 docker exec odoo-17 /usr/bin/odoo scaffold learn_customization /mnt/extra-addons
+
+Serve endpoints in odoo using controller
+Reference
+https://www.odoo.com/documentation/17.0/developer/reference/backend/http.html
